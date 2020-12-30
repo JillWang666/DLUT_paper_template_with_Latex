@@ -10,7 +10,7 @@
 编译环境是：win10，texlive2018，texstudio（2.12.16）  
 为什么用这么老的texstduio：因为懒得更（主要是镜像没法访问QAQ）  
 你可以在：https://blog.csdn.net/lvshu_yuan/article/details/80468425 上下载和安装他们  
-我也会在项目中上传全部的支撑文件  
+我不会在项目中上传任何的支撑文件（因为网差）  
 编译器选择pdflatex，在texstudio里直接修改全域字体为12pt宋体和125%行距  
   
 你需要安装gbt7714-2019的文献引用格式，它同时支持中英文文献  
