@@ -1,10 +1,8 @@
 # DLUT_paper_template_with_Latex  
 于2020/12/30首次上传   
-你可以在 https://www.bilibili.com/video/BV1ph411f7hj 上看到一些关于这个模板的说明  
 任何问题反馈：  
 Email:  hebefans@163.xom  
-   QQ:  2635217964  
-  b站: 经理和大桁  
+   QQ:  2635217964   
 ---------------------------------------------  
 大家好，你现在看到的是由我编写的  
 大连理工大学本科生毕业设计论文的Latex模板  
