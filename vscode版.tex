@@ -18,22 +18,22 @@
 %
 %                                  ————————————》 图X.X  XXXXXXXX
 %                                 |        _________________________________      
-%			                      |      |                                 |
-%			                      |      |                                 |
-%			                      |      |   ██╔══██╗██║   ██║██╔════╝     |
+%			          |      |                                 |
+%			          |      |                                 |
+%			          |      |   ██╔══██╗██║   ██║██╔════╝     |
 %                       对应位置   |      |   ██████╔╝██║   ██║██║  ███╗    |
 %                                 |      |   ██╔══██╗██║   ██║██║   ██║    |
 %                                 |      |   ██████╔╝╚██████╔╝╚██████╔╝    |
-%                                 |      |   ╚═════╝  ╚═════╝  ╚═════╝     |                          |
-%		                          |      |                                 |
+%                                 |      |   ╚═════╝  ╚═════╝  ╚═════╝     |                          
+%		                  |      |                                 |
 %                                 |      |                                 |
 %                                 |      ——————————————————————————————————-
 %                                 |                     ^
 %                                 |                   ^ | ^
-%		\begin{figure}[h]         |                  ^  |  ^          
-%			\centering            |                     |  对应位置
-%			\caption{   XXXXXXXXX   }                   |
-%			\includegraphics[scale=XX]{XX} ——————————————
+%		\begin{figure}[h]                    ^  |  ^          
+%		    \centering                          |  对应位置
+%		    \caption{   XXXXXXXXX   }           |
+%		    \includegraphics[scale=XX]{XX} ——————
 %		\end{figure}
 %——————————————————————————————————————————————————————————————————
 %——————————————————————————————————————————————————————————————————
@@ -51,19 +51,19 @@
 \usepackage{amsmath}							%数学环境
 \usepackage{amssymb}							%数学环境
 %————————————————————————————————————————————————————————————————————————————————————————————
-\usepackage{theorem}                            %数学定理环境								 |					
-%																							|
-%       大环境I————————》\section{theorem}		   			\section{Proof}《——————大环境II   |
-%		小环境I————————》	\begin{theorem}					\begin{proof} 					 |	
-%								This is a theorem.				This is a proof				|
-%							\end{theorem}													|
-%						\end{proof}															|
-%	   小环境II————————》\begin{lemma}   													|
-%							This is a theorem.												|
-%						\end{lemma}															|
+\usepackage{theorem}                            %数学定理环境					|					
+%										 	     |
+%       大环境I————————》\section{theorem}		   \section{Proof}《——————大环境II        |
+%	小环境I————————》	\begin{theorem}		   \begin{proof} 			  |	
+%				This is a theorem.        This is a proof		     |
+%			    \end{theorem}	      \end{proof}			     |
+%											     |
+%	  小环境II————————》\begin{lemma}   						  |
+%				This is a theorem.					     |
+%			    \end{lemma}							     |
 %————————————————————————————————————————————————————————————————————————————————————————————
 %\usepackage{ntheorem}							%更精细的数学定理环境	！和上面的二选一！			    
-\usepackage{bm}									%强制加粗，\bm{内容} 
+\usepackage{bm}								%强制加粗，\bm{内容} 
 %——————————————————————————全局页边距——————————————————————————
 \usepackage{geometry}							%页边距       |
 \geometry{left=2.5cm,right=2.5cm,top=3.5cm,bottom=2.5cm}    %|
@@ -73,79 +73,79 @@
 %                                                                    |
 %                               -页眉-                               | 
 %                                                                    |
-\usepackage{fancyhdr}											    %|
-\pagestyle{fancy}												    %|
-\lhead{}															%|
-\rhead{}															%|
-\chead{\zihao{5} The Subject of Undergraduate Graduation Project (Thesis) of DUT}				%|																%|
+\usepackage{fancyhdr}					            %|
+\pagestyle{fancy}						    %|
+\lhead{}							    %|
+\rhead{}							    %|
+\chead{\zihao{5} The Subject of Undergraduate Graduation Project (Thesis) of DUT}																				    %|
 %———————————————————————————————————————————————————————————————————--
-%\usepackage{multicol}							%双栏排版
-\usepackage{footmisc}							%脚注  \footnote{内容}
-\usepackage{longtable}							%更长的表格
-\usepackage{multirow}							%不规则表格 和 格内合并
-\usepackage{listings}							%代码环境 \begin&end{lstings} \lstset{language=c++}
+%\usepackage{multicol}						%双栏排版
+\usepackage{footmisc}						%脚注  \footnote{内容}
+\usepackage{longtable}						%更长的表格
+\usepackage{multirow}						%不规则表格 和 格内合并
+\usepackage{listings}						%代码环境 \begin&end{lstings} \lstset{language=c++}
 %———————————————————————————————————————————————————————————————————————————————————
 \usepackage[hidelinks]{hyperref}				%花里胡哨的文字高亮 ！会显示在PDF上！绝对不要改变这个包的位置！  
-%\hypersetup{																		|
-%	colorlinks=true,							%超链接								 |
-%	linkcolor=cyan,								%公式								 |
-\numberwithin{equation}{section}				%公式序号							 |
-%	filecolor=blue,      						%文件								|
-%	urlcolor=red,								%网页								|
-%	citecolor=green,							%文献								|
-%}																					|
-%\href{网址}{起个名字显示在文本上}													  |
+%\hypersetup{																		
+%	colorlinks=true,					%超链接								 
+%	linkcolor=cyan,						%公式								 
+\numberwithin{equation}{section}				%公式序号							 
+%	filecolor=blue,      					%文件								
+%	urlcolor=red,						%网页								
+%	citecolor=green,					文献								
+%}																					
+%\href{网址}{起个名字显示在文本上}													  
 %———————————————————————————————————————————————————————————————————————————————————
-\usepackage{float}								%合适的结构体位置
+\usepackage{float}						%合适的结构体位置
 %——————————————————————————————————————————题注———————————————————————————————————————————————————
-\usepackage{caption}							%题注，给图片表格等插入环境命名的 \caption{内容}	|
-\captionsetup[table]{labelsep=space}			%表格题注										  |		
-\captionsetup[figure]{labelsep=space}			%图片题注										  |
+\usepackage{caption}						%题注，给图片表格等插入环境命名的 \caption{内容}	
+\captionsetup[table]{labelsep=space}				%表格题注										  		
+\captionsetup[figure]{labelsep=space}				%图片题注										  
 %—————————————————————————————————————————————————————————————————————————————————————————————————
-\usepackage{graphics}							%图片环境I
-\usepackage{graphicx}							%图片环境II
-%\usepackage{tikz}								%tex内置的画图！非常强也非常难！  https://zhuanlan.zhihu.com/p/142405882
-\usepackage{enumerate}							%序号 \item
-\usepackage{subfigure}							%多图并排	
+\usepackage{graphics}						%图片环境I
+\usepackage{graphicx}						%图片环境II
+%\usepackage{tikz}						%tex内置的画图！非常强也非常难！  https://zhuanlan.zhihu.com/p/142405882
+\usepackage{enumerate}						%序号 \item
+\usepackage{subfigure}						%多图并排	
 %——————————————————————————————表格——————————————————————————————————						
-\usepackage{threeparttable}						%三线表I			|
-\usepackage{threeparttablex}					%三线表II			|
-\usepackage{booktabs}							%三线表III			|
-\numberwithin{table}{section}					%表格序号			|
+\usepackage{threeparttable}					%三线表I			
+\usepackage{threeparttablex}					%三线表II			
+\usepackage{booktabs}						%三线表III			
+\numberwithin{table}{section}					%表格序号			
 %————————————————————————————————————————————————————————————————————
-\usepackage{cite} 								%引用	\cite{}
-%\usepackage{hologo}							%可以用来输入一些Latex的logo   \Hologo{name}  
-\usepackage{etoolbox}							%更强的全局命令赋值
+\usepackage{cite} 						%引用	\cite{}
+%\usepackage{hologo}						%可以用来输入一些Latex的logo   \Hologo{name}  
+\usepackage{etoolbox}						%更强的全局命令赋值
 %——————————————————————————————目录——————————————————————————————————————————————————————————————————————————————————————
-\RequirePackage{titletoc}																								%|
-\usepackage{titlesec}																									%|
-\usepackage{titletoc}																									%|
-\titlecontents{section}[1em]{\zihao{-4}}{\thecontentslabel ~~}{}{\hspace{.5em}\titlerule*{.}\contentspage}				%|
-\titlecontents{subsection}[2em]{\zihao{-4}}{\thecontentslabel ~~}{}{\hspace{.5em}\titlerule*{.}\contentspage}			%|
-\titlecontents{subsubsection}[3em]{\zihao{-4}}{\thecontentslabel ~~}{}{\hspace{.5em}\titlerule*{.}\contentspage}		%|
-%\usepackage{gbt7714}							%文献格式																%|
-\ctexset{																												%|
-	contentsname = {\zihao{-3} {\textcolor{black}{\heiti 目\quad\quad 录}}},											%|
-	bibname = {\zihao{-4} {\textcolor{black}{参考文献}}}																%|
-}																													%|
+\RequirePackage{titletoc}																								
+\usepackage{titlesec}																									
+\usepackage{titletoc}																									
+\titlecontents{section}[1em]{\zihao{-4}}{\thecontentslabel ~~}{}{\hspace{.5em}\titlerule*{.}\contentspage}				
+\titlecontents{subsection}[2em]{\zihao{-4}}{\thecontentslabel ~~}{}{\hspace{.5em}\titlerule*{.}\contentspage}			
+\titlecontents{subsubsection}[3em]{\zihao{-4}}{\thecontentslabel ~~}{}{\hspace{.5em}\titlerule*{.}\contentspage}		
+\usepackage{gbt7714}						%文献格式							
+\ctexset{																												
+	contentsname = {\zihao{-3} {\textcolor{black}{\heiti 目\quad\quad 录}}},											
+	bibname = {\zihao{-4} {\textcolor{black}{参考文献}}}														
+}																			
 %———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 %—————————————————————————————————————————————————————————————————————
-%                                                               	 |
-%                             -定义字体-                              | 
-%                                                                	 |
-\setmainfont{Times New Roman}						%全局英文		 |
-%																	|
-\setCJKfamilyfont{hwxk}{华文行楷}									%|
-\newcommand*{\xk}{\CJKfamily{hwxk}}									%|
-\newcommand*{\bxk}{\textbf{\CJKfamily{hwxk}}}						%|
-%																	%|
-\setCJKfamilyfont{xh}{华文细黑}										%|						%|
-\newcommand*{\xh}{\CJKfamily{xh}}									%|
-%																	%|
-\setCJKfamilyfont{st}{宋体}											%|
-\newcommand*{\st}{\CJKfamily{st}}									%|
-\newcommand*{\bst}{\textbf{\CJKfamily{st}}}							%|
+%                                                               	 
+%                             -定义字体-                               
+%                                                                	 
+\setmainfont{Times New Roman}					%全局英文		 
+%																	
+\setCJKfamilyfont{hwxk}{华文行楷}									
+\newcommand*{\xk}{\CJKfamily{hwxk}}									
+\newcommand*{\bxk}{\textbf{\CJKfamily{hwxk}}}						
+%																	
+\setCJKfamilyfont{xh}{华文细黑}															
+\newcommand*{\xh}{\CJKfamily{xh}}									
+%																	
+\setCJKfamilyfont{st}{宋体}											
+\newcommand*{\st}{\CJKfamily{st}}									
+\newcommand*{\bst}{\textbf{\CJKfamily{st}}}							
 %—————————————————————————————————————————————————————————————————————
 
 %———————————————————————————————————————————————————————————————————
