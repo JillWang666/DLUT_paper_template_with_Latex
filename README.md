@@ -1,7 +1,7 @@
 # DLUT_paper_template_with_Latex  
 于2020/12/30首次上传   
 任何问题反馈：  
-Email:  hebefans@163.xom  
+Email:  hebefans@163.com  
    QQ:  2635217964   
    
 ---------------------------------------------  
